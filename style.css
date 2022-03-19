@@ -2,6 +2,9 @@
     --navbarColor: black;
 }
 
+.close, .hamburger{
+    visibility: hidden;
+}
 * {
     font-family: 'spartan';
     box-sizing: border-box;
@@ -30,4 +33,76 @@ body{
 a{
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: white;
+    }
+    .item{
+        padding: 10px;
+        margin: 0 15px;
+    }
+    .logo{
+        font-size: 25px;
+        padding: 7.5px 10px 7.5px 5px;
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+    .close, .hamburger{
+        visibility: visible;
+    }
+
+    .hamburger {
+        position: fixed;
+        /* a large z-index puts the ham button above the rest of the page*/
+        z-index: 99;
+        border: none;
+        cursor: pointer;
+        top: 1rem;
+        right: 1rem;
+        color: black;
+    }
+    
+    .menu {
+    position: fixed;
+    /* give the menu a larger z-index than the ham link
+    to put the menu above it */
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+        height: 50vh;
+    /* basic menu styling*/
+    background: black;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--navbarColor);
+    
+    flex-direction: column;
+    /* animate slide up/down */
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+    }
+    .navbar{
+        will-change: transform;
+    }
+    
+    .close {
+    position: absolute;
+    border: none;
+    color: white;
+    cursor: pointer;
+    top: 1rem;
+    right: 1rem;
+    }
+    .menu:target {
+    /* show menu */
+    transform: translateY(0);
+    }
 }
