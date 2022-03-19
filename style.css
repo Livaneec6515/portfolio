@@ -90,10 +90,11 @@ a{
 #contact a{
     color: black;
 }
-
-#invisible h2:first-of-type{
+#invisible{
     visibility: hidden;
-    font-size: 40px;
+}
+.about{
+    font-size: 20px;
 }
 
 @media screen and (max-width: 600px){
