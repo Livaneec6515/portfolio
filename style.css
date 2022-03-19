@@ -67,6 +67,10 @@ a{
     text-align: center;
     margin: auto 20vw;
 }
+.list p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
 .list h1{
     font-size: 30px;
     padding-bottom: 5px;
@@ -76,6 +80,9 @@ img{
 }
 #contact a{
     color: black;
+}
+#invisible{
+    visibility: hidden;
 }
 
 @media screen and (max-width: 600px){
@@ -169,13 +176,13 @@ img{
     }
     .list h1{
         font-size: 5vw;
+        margin: 0 5px;
     }
     .list p{
         font-size: 3.5vw;
-        padding: 5px;
     }
     #contact a{
-        font-size: 5vw;
+        font-size: 4vw;
         margin: 0 10px;
     }
     #contact i{
