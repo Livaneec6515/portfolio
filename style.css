@@ -49,6 +49,11 @@ body{
     margin: 0 1%;
     justify-content: flex-end;
 }
+.item:first-of-type{
+    padding-top: 5px;
+    margin-top: 5px;
+
+}
 .logo{
     font-size: 25px;
     padding: 7.5px 10px 7.5px 5px;
@@ -74,6 +79,11 @@ a{
 .list h1{
     font-size: 30px;
     padding-bottom: 5px;
+}
+img{
+    padding: 0;
+    margin: 0;
+    width: 20vw;
 }
 #contact a{
     color: black;
@@ -192,5 +202,8 @@ a{
         flex-direction: column;
         padding: 0;
         margin: 0;
+    }
+    #projects img{
+        width:80vw
     }
 }
