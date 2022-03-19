@@ -52,6 +52,7 @@ a{
 .list{
     padding: 10px;
     text-align: center;
+    margin: auto 20vw;
 }
 .list h1{
     font-size: 30px;
@@ -110,7 +111,7 @@ a{
         right: 0;
         bottom: 0;
         width: 100%;
-        height: 23vh;
+        height: 30vh;
         /* basic menu styling*/
         background-color: black;
         list-style: none;
@@ -141,10 +142,14 @@ a{
     transform: translateY(0);
     position: fixed;
     }
+    .list{
+        margin: auto 10vw;
+    }
     .list h1{
         font-size: 5vw;
     }
     .list p{
         font-size: 3.5vw;
+        padding: 5px;
     }
 }
