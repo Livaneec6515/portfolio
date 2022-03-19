@@ -90,8 +90,14 @@ a{
 #contact a{
     color: black;
 }
-#invisible{
+#invisible h1:first-of-type{
     visibility: hidden;
+    font-size: 20px;
+}
+#invisible h1{
+    font-size: 5px;
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 600px){
