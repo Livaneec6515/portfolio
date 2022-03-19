@@ -207,16 +207,6 @@ a{
         font-size: 4.5vw;
         margin: 5px; 
     }
-    #contact p{
-        font-size: 3vw;
-        margin: 5px 10px 0 10px;
-        font-weight: bold;
-    }
-    #contact i, #contact p{
-        display: inline;
-        padding: 0;
-        margin: 5px;
-    }
 
 }
 @media screen and (min-width: 601px) and (max-width: 768px) {
@@ -231,16 +221,7 @@ a{
         font-size: 3.5vw;
         margin: 5px; 
     }
-    #contact p{
-        font-size: 2.7vw;
-        margin: 5px 10px 0 10px;
-        font-weight: bold;
-    }
-    #contact i, #contact p{
-        display: inline;
-        padding: 0;
-        margin: 5px;
-    }
+
     .list{
         margin: 0 10px;
     }
@@ -267,15 +248,7 @@ a{
         font-size: 3vw;
         margin: 5px; 
     }
-    #contact p{
-        font-size: 2vw;
-        margin: 5px 10px 0 10px;
-        font-weight: bold;
-    }
-    #contact i, #contact p{
-        display: inline;
-        padding: 0;
-    }
+
     .list{
         margin: 0 10px;
     }
@@ -314,16 +287,6 @@ a{
         margin-top: 15px;
         margin-bottom: 5px;
     }
-    #contact p{
-        font-size: 2vw;
-        margin: 5px 10px 0 10px;
-        font-weight: bold;
-    }
-    #contact i, #contact p{
-        display: inline;
-        padding: 0;
-        margin: 5px;
-    }
 }
 
 @media screen and (min-width: 1201px){
@@ -338,16 +301,7 @@ a{
         font-size: 2vw;
         margin: 5px; 
     }
-    #contact p{
-        font-size: 1.5vw;
-        margin: 5px 10px 0 10px;
-        font-weight: bold;
-    }
-    #contact i, #contact p{
-        display: inline;
-        padding: 0;
-        margin: 5px;
-    }
+
     .list{
         margin: 0 15px;
     }
