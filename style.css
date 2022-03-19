@@ -12,6 +12,7 @@
     padding: 0;
     margin: 0;
 }
+
 .mobilelogo{
     visibility: hidden;
     display: flex;
@@ -43,6 +44,18 @@ body{
 a{
     text-decoration: none;
     color: white;
+}
+.container{
+    flex-direction: column;
+    display: flex;
+}
+.list{
+    padding: 10px;
+    text-align: center;
+}
+.list h1{
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 600px){
@@ -126,18 +139,12 @@ a{
     .menu:target {
     /* show menu */
     transform: translateY(0);
-    }
-
-    .container{
-        flex-direction: column;
-        display: flex;
-    }
-    .list{
-        padding: 10px;
-        text-align: center;
+    position: fixed;
     }
     .list h1{
         font-size: 5vw;
-        padding-bottom: 10px;
+    }
+    .list p{
+        font-size: 3.5vw;
     }
 }
