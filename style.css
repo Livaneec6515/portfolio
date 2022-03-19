@@ -71,6 +71,9 @@ a{
     font-size: 30px;
     padding-bottom: 5px;
 }
+img{
+    width: 20vw;;
+}
 
 @media screen and (max-width: 600px){
     body{
@@ -142,6 +145,9 @@ a{
         will-change: transform;
     }
     
+    img{
+        width: 30vw;
+    }
     .close {
     position: absolute;
     border: none;
@@ -165,4 +171,5 @@ a{
         font-size: 3.5vw;
         padding: 5px;
     }
+    
 }
